@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contenedor__divColor{
+    background-color: green;
+    margin: 0.2em;
+    min-width: 10px;
+    height: 10vh;
+    text-align: center;
+}
