@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section{
+    background-color: #ffff00;   
+}
+
+.nav-item:hover{
+    background-color: #838326;
+}
+
+#navSection{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
+.nav-link{
+    font-size: 1.5em;
+    color: #000;
+}
+
+.carousel-item{
+    object-fit: contain;
+}
+
+#inicio{
+    padding-top: 83px;
+}
+
+.carousel-caption{
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.carousel-caption h5{
+    font-size: 8vh;
+}
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.col-sm-6,.col-sm-3{
+    text-align: center;
+    padding: 1em;
+}
+
+#nosotros
+{
+    background-color: #fff;
+}
+
+.row__nosotros-texto{
+    font: .8em;
+}
+
+.row__nosotros-bajada{
+    font-size: 1.5em;
+}
+
+.row__nosotros-titule{
+    font-size: 3.5em;
+}
+
+img{
+    width: 90%;
+    object-fit: contain;
+}
+
+.card-img-top{
+    padding-top: .2em;
+}
+
+.container-tarjetas{
+    background-color: #ffff00;
+}
+
+#trabajos{
+    background: url("/img/10.jpg");
+}
+
+.container h2{
+    text-align: center;
+}
+
+
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}

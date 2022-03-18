@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <script src="https://kit.fontawesome.com/689809f9f1.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+
+<body>
+  <section id="navSection">
+    <div class="container-fluid navbarFixed">
+        <!-- brand -->
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a href="#inicio" class="navbar-brand mb-0"><img class=navbar-logo src="/img/logo.png"  width="80" height="60" alt="techos tiglio"></a>
+          <!-- menu hamburguesa -->
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarId"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <!-- navbar main -->
+        <div id="navbarId" class="collapse navbar-collapse">
+          <!-- navbar items ul list -->
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a href="#Inicio" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="#servicios" class="nav-link">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#trabajos" class="nav-link">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacto" class="nav-link">Contacto</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section id="inicio">
+
+    <div id="carousel-controles" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I loved it! it was the best thing that ever happened to me.</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+<div class="carousel-item">
+          <h2 class="testimonial-text">OMG I CANT STOP! everything about this just screams professionalism.</h2>
+          <img class="testimonial-img" src="images/avatar2.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-controles" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-controles" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!--
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/img/10.jpg" class="d-block w-100" alt="techos tiglio">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>TECHOS TIGLIO</h5>
+            <p>desde 1976.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/img/10.jpg" class="d-block w-100" alt="techos tiglio">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>UNA EMPRESA FAMILIAR</h5>
+            <p>Con una larga trayectoria</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/10.jpg" class="d-block w-100" alt="techos tiglio">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>PRODUCTOS IMPERMEABILIZANTES</h5>
+            <p>Dedicada a la colocación y provisión</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>-->
+  </section>
+
+  <section id="nosotros">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="row__nosotros-titule">NOSOTROS</h2>
+          <h4 class="row__nosotros-bajada">Realizamos trabajos para Obra, Hogar, e Industria</h4>
+          <p class="row__nosotros-texto">Somos una empresa familiar creada en 1976 por Jorge Alberto Tiglio, dedicada a la provision y colocación de productos impermeabilizantes. Nos avala una larga trayectoria y una importante cartera de clientes.</p>
+        </div>
+        <div class="col-sm-6">
+          <img src="/img/techos-ormiflex.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="techosTiglio">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <section class="container container-tarjetas">
+      <div class="row">
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <i class="fa-solid fa-house fa-6x card-img-top"></i>
+            <div class="card-body">
+              <h4 class="card-text">Experiencia</h4>
+              <p class="card-text ">Somos una empresa con más de 40 años de experiencia</p>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <i class="fa-solid fa-building fa-6x card-img-top"></i>
+            <div class="card-body">
+              <h4 class="card-text">Asesoramiento</h4>
+              <p class="card-text">Somos un grupo de profesionales que brindamos asesoramiento a nuestros clientes</p>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <i class="fa-solid fa-clock fa-6x card-img-top"></i>
+            <div class="card-body">
+              <h4 class="card-text">Disponibilidad</h4>
+              <p class="card-text">Contamos con servicio 7×24 pudiendo estar presente ante cualquier requirimiento</p>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;">
+            <i class="fa-solid fa-thumbs-up fa-6x card-img-top"></i>
+            <div class="card-body">
+              <h4 class="card-text">Reputación</h4>
+              <p class="card-text">Somos reconocidos por nuestro trabajo por las grandes indústrias del ramo</p>
+            </div>
+          </div>  
+        </div>
+
+      </div>
+    </section>
+  
+
+  <section id="trabajos">
+
+    <div class="container">
+      <h2>Trabajos</h2>
+      <div class="row">
+        <ul class="col-sm-6">
+          <li>Membranas</li>
+          <li>Tinglados</li>
+          <li>Techos</li>
+          <li>Selladores</li>
+          <li>Resinas Poliester</li>
+          <li>Revestimientos Acrílicos</li>
+        </ul>
+        <ul class="col-sm-6">
+          <li>Canteros</li>
+          <li>Fundaciones</li>
+          <li>Medianeras</li>
+          <li>Piletas</li>
+          <li>Aislaciones Térmicas</li>
+          <li>Revestimientos Asfalticos</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--
+    <div class="row container-trab">
+      <h2>Trabajos</h2>
+      <div class="row">  
+        <ul class="col-sm-6">
+          <li>Membranas</li>
+          <li>Tinglados</li>
+          <li>Techos</li>
+          <li>Selladores</li>
+          <li>Resinas Poliester</li>
+          <li>Revestimientos Acrílicos</li>
+        </ul>
+        <ul class="col-sm-6">
+          <li>Canteros</li>
+          <li>Fundaciones</li>
+          <li>Medianeras</li>
+          <li>Piletas</li>
+          <li>Aislaciones Térmicas</li>
+          <li>Revestimientos Asfalticos</li>
+        </ul>
+      </div>
+    </div>-->
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
